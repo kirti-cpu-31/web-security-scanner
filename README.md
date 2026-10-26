@@ -1,4 +1,4 @@
-# web-security-scanner# Automated Web Scanner
+# Automated Web Scanner
 
 A simple Python script that checks a website for missing security headers and CORS misconfiguration.
 

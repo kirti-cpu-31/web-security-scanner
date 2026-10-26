@@ -28,28 +28,28 @@ FAIL X-Content-Type-Options - Stops MIME sniffing
 PASS CORS: None
 ```
 
-## Results
-1.python scanner.py https://github.com
+## Results 
+1.python Kirti_AutomatedWebScanner.py https://github.com
 Scanning https://github.com
 PASS Strict-Transport-Security - Forces HTTPS
 PASS Content-Security-Policy - Blocks XSS
 PASS X-Frame-Options - Prevents clickjacking
 PASS X-Content-Type-Options - Stops MIME sniffing
 PASS CORS: None
-PS C:\Users\shivam\Desktop\scanner.py> 
-2.python scanner.py https://example.com
+2.python Kirti_AutomatedWebScanner.py https://example.com
 Scanning https://example.com
 FAIL Strict-Transport-Security - Forces HTTPS
 FAIL Content-Security-Policy - Blocks XSS
 FAIL X-Frame-Options - Prevents clickjacking
 FAIL X-Content-Type-Options - Stops MIME sniffing
 PASS CORS: None
-PS C:\Users\shivam\Desktop\scanner.py> 
 
 ## What I learned
 - How security headers protect users
 - What CORS is and why `*` can be risky
 - How to send HTTP requests in Python
+
+  No dataset used
 
 ## Disclaimer
 Only scan websites you own or have permission to test.
